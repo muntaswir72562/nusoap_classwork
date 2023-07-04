@@ -3,12 +3,11 @@
 
 $response = "";
 if (isset($_POST['num1'])) {
+    
     $op = $_POST['op'];
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
-    // echo $op;
-    // echo $num1;
-    // echo $num2;
+
 
     $wsdl = 'http://www.dneonline.com/calculator.asmx?wsdl';
     $client = new SoapClient($wsdl, array('trace' => 1));

@@ -1,7 +1,7 @@
 <?php
 require_once "../lib/nusoap.php";
 $client = new
-nusoap_client("http://localhost/classwork/productlist_amended.php?wsdl");
+nusoap_client("http://localhost/classwork/Q1-2/productlist_amended.php?wsdl");
 
 $error = $client->getError();
 if ($error) {

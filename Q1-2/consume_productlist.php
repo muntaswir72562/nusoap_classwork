@@ -4,7 +4,7 @@ echo 'Create and Consume SOAP Service using PHP';
 echo '<br/><br/>';
 
 $client = new SoapClient(
-'http://localhost/classwork/getProductList.wsdl');
+'http://localhost/classwork/Q1-2/getProductList.wsdl');
 
 try {
 

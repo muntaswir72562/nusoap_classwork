@@ -28,7 +28,7 @@
 </binding>
 <service name="productlist">
   <port name="productlistPort" binding="tns:productlistBinding">
-    <soap:address location="http://localhost/classwork/productlist_amended.php"/>
+    <soap:address location="http://localhost/classwork/Q1-2/productlist_amended.php"/>
   </port>
 </service>
 </definitions>
